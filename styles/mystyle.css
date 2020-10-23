@@ -1,0 +1,72 @@
+#fi{
+    height: 100%;
+    width:480px;
+    float: left;
+    position: relative;
+    display: inline-block
+    padding:0;
+    margin:0;
+    border:0;
+}
+#fi img{
+    width:480px;
+    height: 100%;
+    padding:0;
+    margin:0;
+    border:0;
+}
+
+html,body{
+    height: 100%;
+} /*10月23日遇到用height="100%"，执行网页时图片无法自动适应div的高度，了解到  css先执行到，而整个网页中的内容还没有完全载入，是获取不到div外面的<body>等的高度的，所以height="100%"也就不能如愿显示了。加上
+所以加一个 html,body{height:100%} 就可以解决这个问题了*/
+#fe{
+    heigth:100%;
+    text-align: center;
+    position: relative;
+}
+#fk{
+    width:260px;
+    height: 50px;
+
+}
+#fo{
+    width:100px;
+    height: 50px;
+    margin:10px;
+}
+#fp{
+    
+    float: right;
+    position: relative;
+    display: inline-block
+    padding:0;
+    margin:0;
+    border:0;
+    display:none;
+    target:_blank;
+}
+#fl{
+    height: 80px;
+    text-decoration:none;
+    float: right;
+}
+#pdd{
+    text-decoration:none;
+    float: right;
+}
+h1,h2{
+    text-align: center;
+
+}
+#fh{
+    width: 140px;
+    height: 50px;
+    margin:10px;
+}
+#ft{
+    height: 50px;
+    width: 180px;
+    background-color:blueviolet;
+
+}
